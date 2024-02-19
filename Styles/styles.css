@@ -1,0 +1,296 @@
+/* Global styles */
+body {
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Header styles */
+header {
+  background-image: url('/images/jaf14.jpg');
+  box-shadow: 400px 100px 160px #000000 inset;
+  background-size: cover;
+  height: 500px; 
+  position: relative;
+}
+
+.header-content {
+  width: 500px;
+  color: white;
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  background-color: rgba(158, 161, 161, 0.5);
+  padding: 20px;
+}
+.header-content h1 {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+}
+
+.donate-btn {
+  height: 45px;
+  width: 75px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(12, 168, 38);
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  transition: color 0.3s, box-shadow 0.3s;
+}
+
+.donate-btn:hover {
+  color: rgb(219, 213, 213);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#hiddenText {
+  display: none;
+  background-color: white;
+  padding: 15px;
+  color: gray;
+  height: 60px;
+  border-radius: 6px;
+  
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: rgb(9, 23, 77);
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 270px;
+  height: 160px;
+  padding: 15px;
+}
+.logo img {
+  width: 73px;
+  height: 70px;
+  margin-top: 40px;
+}
+
+.links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-weight: 800;
+}
+
+.links a:hover {
+  transition: 0.3s;
+  opacity: 0.7;
+}
+
+
+/* Main section styles */
+.section {
+  display: flex;
+  width: 800px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+  margin: 30px 100px;
+  line-height: 1.7;
+}
+
+.section h2 {
+  
+}
+
+
+
+ .image-section {
+  margin-top: 20px;
+  background-color: rgb(151, 149, 149, 0.4);
+  height: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 20px;
+  padding-left: 45px;
+  padding-top: 35px;
+  margin-bottom: 150px;
+}
+
+
+.image-section img {
+  width: 350px;
+  height: 350px;
+  box-shadow: 4px 4px 4px black;
+} 
+
+.image-section img:hover {
+  cursor: pointer;
+  box-shadow: 3px 3px 9px gray;
+  width: 380px;
+  height: 380px;
+  transition: 0.8sec;
+}
+
+/*.image-container {
+  display: inline;
+  width: 350px;
+  height: 350px;
+  border-radius: 5px;
+  padding: 5px;
+ 
+} */
+
+/* for the program section */
+
+#ftn-heading {
+    display: grid;
+   justify-content: center;
+    padding: 20px;
+     font-size: 20px;
+
+}
+
+.program-section {
+  display: flex;
+  padding: 20px;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+ .program-imge-container, img{
+  border-radius: 3px;
+  width: 300px;
+  height: 250px;
+}
+
+.program-imge-container {
+  width: 300px;
+  height: 450px;
+   display: grid;
+   justify-content: space-around;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   text-align: center;
+}
+
+
+.description {
+  display: flex;
+  margin-top: 5px;
+  height: 60px; 
+  padding: 5px;
+}
+
+.how-we-do-container {
+  display: flex;
+  width: 950px;
+  padding: 50px;
+  margin-left: 150px;
+  margin-top: 80px;
+}
+
+.how-we-do-container img {
+  width: 300px;
+  height: 350px;
+  margin-right: 40px;
+}
+
+.outcome-heading {
+  margin-bottom: 0;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.expected-outcomes {
+  display: flex;
+  padding: 30px;
+}
+
+.expected-outcomes div {
+  width: 500px;
+  padding: 30px;
+  margin-left: 20px;
+}
+
+.expected-outcomes img {
+  padding-left: 80px;
+  width: 350px;
+  height: 300px;
+}
+
+
+.gray-background {
+  background-color: lightgray;
+  height: 450px;
+}
+
+.donation-section {
+  background-color: rgb(241, 33, 33);
+  color: white;
+  width: 800px;
+  height: 200px;
+  padding: 20px;
+  margin: 150px;
+  border-radius: 15px;
+}
+
+#text {
+  color: rgb(226, 220, 220);
+}
+
+ /* This is for the footer section*/
+
+ .footer {
+  background-color: rgb(9, 23, 77);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  color: white;
+  font-weight: 800;
+}
+
+.footer-left, .footer-middle, .footer-right {
+  flex: 1;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.footer-left a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-left a:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+#footer-link {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#partnshp {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.social-icons {
+  display: flex;
+}
+
+
+.social-icon img {
+  width: 30px;
+  height: 30px;
+  margin-left: 15px;
+}
