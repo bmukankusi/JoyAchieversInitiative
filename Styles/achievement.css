@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-image: url('/images/jaf24.jpg');
+    background-image: url('../images/jaf24.jpg');
     box-shadow: 400px 100px 160px #000000 inset;
     background-size: cover;
     height: 500px; 
