@@ -297,3 +297,67 @@ header {
   height: 30px;
   margin-left: 15px;
 }
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  .section {
+    width: auto;
+    margin: 30px 20px;
+  }
+
+  .image-section {
+    grid-template-columns: 1fr;
+  }
+
+  .image-section img {
+    width: 100%;
+    height: auto;
+  }
+
+  .program-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .program-imge-container, img {
+    width: 100%;
+    height: auto;
+  }
+
+  .how-we-do-container {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+  }
+
+  .how-we-do-container img {
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .expected-outcomes {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .expected-outcomes div {
+    width: auto;
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+
+  .expected-outcomes img {
+    width: 100%;
+    height: auto;
+    padding-left: 0;
+    margin-bottom: 20px;
+  }
+
+  .donation-section {
+    width: auto;
+    margin: 30px;
+  }
+}
+
