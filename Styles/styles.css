@@ -6,7 +6,7 @@ body {
 
 /* Header styles */
 header {
-  background-image: url('/images/jaf14.jpg');
+  background-image: url('../images/jaf14.jpg');
   box-shadow: 400px 100px 160px #000000 inset;
   background-size: cover;
   height: 500px; 
