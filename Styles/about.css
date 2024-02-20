@@ -10,7 +10,7 @@ body {
   }
   
   .header-background {
-    background-image: url('/images/jaf13.jpg');
+    background-image: url('../images/jaf13.jpg');
     background-size: cover;
     height: 450px;
     box-shadow: 300px -180px 250px rgba(0, 0, 0, 0.8) inset;
