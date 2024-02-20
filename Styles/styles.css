@@ -2,6 +2,7 @@
 body {
   margin: 0;
   font-family: 'Courier New', Courier, monospace;
+  font-size: 1.2vw;
 }
 
 /* Header styles */
@@ -14,7 +15,7 @@ header {
 }
 
 .header-content {
-  width: 500px;
+  max-width: 500px;
   color: white;
   position: absolute;
   left: 20px;
@@ -185,6 +186,7 @@ header {
 
 .how-we-do-container {
   display: flex;
+  flex: 1;
   width: 950px;
   padding: 50px;
   margin-left: 150px;
@@ -246,6 +248,7 @@ header {
 
  .footer {
   background-color: rgb(9, 23, 77);
+  background-size: cover;
   padding: 20px;
   display: flex;
   justify-content: space-between;
