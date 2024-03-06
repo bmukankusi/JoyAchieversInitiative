@@ -1,7 +1,7 @@
 /* Global styles */
 body {
     margin: 0;
-    font-family:  'Courier New', Courier, monospace;
+    font-family:  Arial, Helvetica, sans-serif;
   }
   
   /* Header styles */
@@ -12,7 +12,7 @@ body {
   .header-background {
     background-image: url('../images/jaf13.jpg');
     background-size: cover;
-    height: 450px;
+    height: 45vw;
     box-shadow: 300px -180px 250px rgba(0, 0, 0, 0.8) inset;
 
   }
@@ -20,27 +20,23 @@ body {
   .theme {
     /*position: absolute;*/
     color: white;
-    padding: 10px;
-    display: grid;
-    grid-template-columns: 600px 600px;
-    flex-direction: row;
-    justify-content: center;
+    display: flex;
+    margin-top: 16%;
+    margin-left: 8%;
+    margin-right: 5%;
+    justify-content: space-between;
     
   }
+
+  .theme div{
+    width: 40%;
+    line-height: 2vw;
+  }
   .theme h2 {
-    font-weight: 900;
+    font-weight: 750;
     font-size: 30px;
   }
 
-  .theme div {
-    width: 550px;
-    margin-left: 40px;
-  }
-  
-  #theme {
-    color: white;
-    margin: 40px;
-  }
   /*.navbar ul {
     list-style-type: none;
     margin: 0;
@@ -57,7 +53,7 @@ body {
   }*/
 
   .navbar {
-    background-color: rgb(9, 23, 77, 0.9);
+    background-color: rgb(18, 186, 228, 0.8);
     height: 100px;
     display: flex;
     align-items: center;
@@ -77,15 +73,14 @@ body {
   }
 
   .logo {
-    width: 270px;
-    height: 160px;
-    padding: 15px;
+    width: 7%;
+    height: auto;
+    padding: 1%;
   }
   
   .logo img {
-    width: 73px;
-    height: 70px;
-    margin-top: 40px;
+    width: 100%;
+    height: 100%;
   }
 
   
@@ -99,36 +94,40 @@ body {
         display: flex;
         box-shadow: 3px 3px 8px black;
         background-color: rgba(213, 214, 213, 0.4);
-        padding: 20px 0;
+        padding: 3% 2%;
     }
 
     .background-container h2 {
-      font-size: 35px;
+      font-size: 3vw;
+      display: flex;
+      justify-content: center;
+      color: rgb(88, 84, 84);
     }
     .background-text-container {
-        width: 550px;
-        padding: 0 20px;
+        width: 65%;
+        padding: 0 2%;
+        line-height: 2vw;
     }
     .background-chart-container {
      display: flex;
      flex-wrap: wrap;
-     padding: 10px;
-     margin-left: 150px;
+     padding: 1%;
+     margin-left: 15%;
      justify-content: space-around;
     }
     .background-chart-container div {
-        background-color: rgb(34, 153, 233);
-        color: rgb(155, 11, 11);
-        width: 200px;
-        height: 200px;
-        box-shadow: 1px 3px 8px rgb(9, 9, 148);
-        border-radius: 100px;
+        background-color: rgb(18, 186, 228);
+        color: rgb(15, 118, 115);
+        width: 40%;
+        height: 40%;
+        box-shadow: 1px 3px 8px rgb(19, 125, 196);
+        border-radius: 28%;
         display: flex;
         flex-direction: column;
-        padding-left: 15px;
+        padding-left: 1.5%;
         align-items: center;
         justify-content: center;
-        font-weight: bold;
+        font-weight: bolder;
     } 
 
     .background-chart-container h1 {
@@ -136,56 +135,71 @@ body {
     }
     
     .program-headings {
-      margin-top: 80px;
+      margin-top: 9%;
       display: flex;
       flex-direction: column;
       align-items: center;
-      font-size: 25px;
+      font-size: 2vw;
+      color: rgb(88, 84, 84);
     }
     .program-section {
       display: flex;
-      grid-template-columns: 500px 500px;
-      padding: 20px;
-      margin-top: 20px;
-      justify-content: space-between;
+      padding: 2%;
+      justify-content: space-evenly;
     }
     
      .program-imge-container, img{
-      border-radius: 3px;
-      width: 300px;
-      height: 250px;
+      width: 100%;
+      height: 90%;
     }
     
     .program-imge-container {
-      width: 300px;
-      height: 600px;
+      width: 23%;
+      height: auto;
        display: grid;
-       justify-content: space-around;
        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
        text-align: center;
+    }
+
+    .program-imge-container p{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 2%;
+      line-height: 1.6vw;
+    }
+
+    .program-imge-container li{
+      line-height: 2vw;
+      padding-right: 3%;
     }
 
      .general-objectives {
       display: flex;
       flex-direction: column;
-      padding-top: 50px;
-      padding-left: 150px;
+      padding-top: 5%;
+      padding-left: 15%;
+      line-height: 2vw;
+     }
+
+     .general-objectives h2{
+      font-size: 2.7vw;
      }
     .activities {
-      padding-top: 100px;
+      padding-top: 10%;
     }
 
     .specific-container {
-      padding: 20px;
+      padding: 2%;
       display: grid;
       grid-template-columns: 1fr 1fr;
-      row-gap: 30px;
-      column-gap: 20px;
+      row-gap: 3%;
+      column-gap: 2%;
       
     }
 
     .specific-container div {
-      background-color: rgb(15, 190, 9, 0.3);
+      background-color: rgb(18, 186, 228, 0.5);
       box-shadow: -3px 3px 9px rgb(4, 77, 4);
       align-items: center;
       justify-content: center;
@@ -196,65 +210,38 @@ body {
       display: grid;
       align-items: center;
       justify-content: center;
-      font-size: 20px;
+      font-size: 1.7vw;
+      color: rgb(107, 104, 104);
     }
 
     .general-activities-container {
       /*background-image: url(/images/Crumpled\ Paper.jpg);*/
       display: flex;
-      padding: 60px;
-      
+      padding: 6%;
     }
 
-    .general-activities-container img {
-      margin-right: 40px;
-      margin-left: 80px;
-      height: 270px;
-      
-    }
 
     .members {
       margin: 100px;
     }
 
   .meet-board-members-container {
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-between;
-   padding: 5px;
-   margin: 50px 0;
+   display: grid;
+  
   }
 
-  .meet-board-members-container div {
-    display: grid;
-    justify-content: center;
-    border-radius: 5px;
-    
+  .meet-board-members-container div{
+    width: 30%;
+    height: 80%;
   }
-  
-  .meet-board-members-container div img {
-    height: 300px;
-    width: 300px;
-    border-radius: 185px;
-    box-shadow: -2px -3px 7px rgb(175, 175, 175);
-  }
+
+
 
   .member-description {
-    background-color: black;
-    color: white;
-    box-shadow: 2px 3px 7px rgb(175, 175, 175);
-    margin-bottom: 50px;
-    line-height: 1.3;
-    width: 300px;
-    padding: 5px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
   }
 
-  #member {
-   display: flex;
-   flex-direction: column;
-   margin-left: 400px;
-  }
+ 
 
   .know-more-container {
     display: flex;
