@@ -5,23 +5,74 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Joy Achievers Initiative</title>
 <link rel="stylesheet" href="../Styles/about.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <link rel="icon" type="image/png" href="../images/favicon-icon.png">
 </head>
 <body>
 
-<header class="header">
-  <div class="header-background">
-    <nav class="navbar">
-      <div class="logo">
-      <img src="../images/favicon-icon.png" alt="Logo">
-      </div>
-      <div>
-      <a href="index.html">Home</a>
-      <a href="#programs">Programs</a>
+  <header> <!--class="header" -->
+  <!-- <div class="header-background"> -->
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <nav class="navbar">
+          <div class="logo">
+          <img src="../images/favicon-icon.png" alt="Logo">
+          </div>
+          <div>
+          <a href="index.html">Home</a>
+          <a href="#programs">Programs</a>
+          </div>
+        </nav> 
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active caraus-container">
+            <img src="/images/jafbg.jpg" class="d-block w-100 carous-img" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Joy Achievers Initiative</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item caraus-container">
+            <img src="/images/jaf01.jpg" class="d-block w-100 carous-img" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item caraus-container">
+            <img src="/images/jaf15.jpg" class="d-block w-100 carous-img" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
       
-  </nav>
+  
   <div class="theme">
+    <div>
+      <h2>Who We Are</h2>
+      <p>Joy Achievers Initiative is a youth-led non-profit organization founded by university students 
+        who have studied in health sectors, primarily general nursing and mental health nursing. 
+        Members are put in place based on the Initiative constitution. We are dedicated to working 
+        on the mental health issues of street children and returning them to their homes and schools. 
+        The organization was founded by a general nursing student, Mr. Thierry NABAYO, and began 
+        with a team of 11 co-founders, the Initiative aims to get many members, partners, and 
+        sponsors.</p>
+    </div>
       <div>
         <h2 id="mission">Mission</h2>
         <p>Empowering Individuals, Transforming Lives: Through mental health support,
@@ -145,18 +196,7 @@
        
       <h2>Specific Activities</h2>
       </div>
-      <section class="general-activities-container">
-        <div>
-         <h2>General Activities</h2>
-        </div>
-         <div>
-           <p>1.Celebrate international Family day on 15 May.</p>
-           <p>2. Celebrate International African child Day on 18 June.</p>
-           <p>3. Celebrate World Mental health Day on 10 October.</p>
-           <p>4. Celebrate International Child Rights Day on 20 November.</p>
-           <p>5. Celebrate International Human Rights Day on 10 December.</p>
-         </div>
-     </section>
+      
      <div class="specific-container">
       <div>
         <h3><b>Program 1</b>: Offer mental health treatment to street children and reunify them with their 
@@ -205,64 +245,78 @@
      </div>
     </div>
   </section>
-
- 
-  <section>
-    <div class="board-members">
-      <div>
-        <img src="../images/jafThierry.jpg" alt="Thierry">
-       
-          <p>Name: Thierry NABAYO</p>
-        <P>Role: President</P>
-        <p>Profession: General nurse</p>
-        
-      </div>
-      <div>
-        <img src="../images/_MG_8944%20-%20davis%20rukundo.JPG" alt="Davis">
-        
-          <p>Name: Davis RUKUNDO</p>
-        <p>Role: Vice President</p>
-        <p>Profession: Professional Nursing</p>
-        
-      </div>
-      <div>
-        <img src="../images/jaft1.jpg" alt="Concorde">
-        <p>Name: Bienvenue Concorde TUYISHIMIRE</p>
-        <p>Role: Project Manager</p>
-        <p>Profession: Professional Nursing</p>
-      
-      </div>
-      <div>
-        <img src="../images/jaft2.jpg" alt="Moise">
-          <p>Name: Moise ISHIMWE</p>
-          <p>Role: Assistant Project Manager</p>
-          <p>Profession: Professional Nursing </p>
-       
-      </div>
-      <div>
-        <img src="../images/jaft3.jpg" alt="Gislain">
-          <p>Name: Gislain INEZA</p>
-          <p>Role: General Auditor</p>
-          <p>Profession: Professional Nursing</p>
-       
-      </div>
-      <div>
-        <img src="../images/BVN_4172 - Benithe Paradise.jpg" alt="Benithe">
-        
-            <p>Name: Benithe YANKURIJE</p>
-          <p>Role: Accountant</p>
-          <p>Profession: Professional Nursing</p>
-      </div>
-      
-      <div>
-        <img src="../images/IMG-20240210-WA0005 - Claudine Ikuzwe Gihozo Marie.jpg" alt="Claudine">
-          <p>Name: Marie Faustine U. IRADUHA</p>
-          <p>Role: Secretary</p>
-          <p>Profession: Professional Nursing</p>
-        
-      </div>
-      
+  <section class="general-activities-container">
+    <div>
+     <h2>General Activities</h2>
     </div>
+     <div>
+       <p>1.Celebrate international Family day on 15 May.</p>
+       <p>2. Celebrate International African child Day on 18 June.</p>
+       <p>3. Celebrate World Mental health Day on 10 October.</p>
+       <p>4. Celebrate International Child Rights Day on 20 November.</p>
+       <p>5. Celebrate International Human Rights Day on 10 December.</p>
+     </div>
+ </section>
+ 
+  <section class="board-members">
+      <section>
+        <div>
+          <img src="../images/jafThierry.jpg" alt="Thierry">
+         
+            <p>Name: Thierry NABAYO</p>
+          <P>Role: President</P>
+          <p>Profession: General nurse</p>
+          
+        </div>
+        <div>
+          <img src="../images/_MG_8944%20-%20davis%20rukundo.JPG" alt="Davis">
+          
+            <p>Name: Davis RUKUNDO</p>
+          <p>Role: Vice President</p>
+          <p>Profession: Professional Nursing</p>
+          
+        </div>
+        <div>
+          <img src="../images/jaft1.jpg" alt="Concorde">
+          <p>Name: Bienvenue Concorde TUYISHIMIRE</p>
+          <p>Role: Project Manager</p>
+          <p>Profession: Professional Nursing</p>
+        
+        </div>
+      </section>
+       <section>
+        <div>
+          <img src="../images/jaft2.jpg" alt="Moise">
+            <p>Name: Moise ISHIMWE</p>
+            <p>Role: Assistant Project Manager</p>
+            <p>Profession: Professional Nursing </p>
+         
+        </div>
+        <div>
+          <img src="../images/jaft3.jpg" alt="Gislain">
+            <p>Name: Gislain INEZA</p>
+            <p>Role: General Auditor</p>
+            <p>Profession: Professional Nursing</p>
+         
+        </div>
+        <div>
+          <img src="../images/BVN_4172 - Benithe Paradise.jpg" alt="Benithe">
+          
+              <p>Name: Benithe YANKURIJE</p>
+            <p>Role: Accountant</p>
+            <p>Profession: Professional Nursing</p>
+        </div>
+       </section>
+      
+      <section>
+        <div>
+          <img src="../images/IMG-20240210-WA0005 - Claudine Ikuzwe Gihozo Marie.jpg" alt="Claudine">
+            <p>Name: Marie Faustine U. IRADUHA</p>
+            <p>Role: Secretary</p>
+            <p>Profession: Professional Nursing</p>
+          
+        </div>
+      </section>
   </section>
 
   <section class="donation-section">
