@@ -144,7 +144,7 @@ body {
         font-weight: bolder;
     } 
 
-   .card{
+   /* .card{
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 700px;
@@ -155,7 +155,7 @@ body {
     height: 70%;
     width: 100%;
     object-fit: cover;
-   }
+   } */
 #cardimg {
   height: 50%;
 }
@@ -164,103 +164,19 @@ body {
   height: 50%;
 }
     
-    .program-headings {
-      margin-top: 9%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      font-size: 2vw;
-      color: rgb(88, 84, 84);
-    }
-    .program-section {
-      display: flex;
-      padding: 2%;
-      justify-content: space-evenly;
-    }
     
-     .program-imge-container, img{
-      width: 100%;
-      height: 90%;
-    }
-    
-    .program-imge-container {
-      width: 23%;
-      height: auto;
-       display: grid;
-       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-       text-align: center;
-    }
+.card-img-top{
+  height: 250px !important;
+  width: 250px !important;
+  border-radius: 40%;
+  position: relative;
+  left: 80px;
+  object-fit: cover;
+}
 
-    .program-imge-container p{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 2%;
-      line-height: 1.6vw;
-    }
-
-    .program-imge-container li{
-      line-height: 2vw;
-      padding-right: 3%;
-    }
-
-     .general-objectives {
-      display: flex;
-      flex-direction: column;
-      padding: 5%;
-      line-height: 2vw;
-      background-color: azure;
-      width: 50%;
-      margin: 5% 20%;
-      border-radius: 6%;
-     }
-
-     .general-objectives h2{
-      font-size: 2.7vw;
-      color: rgb(68, 67, 67);
-     }
-    .activities {
-      padding-top: 10%;
-    }
-
-    .specific-container {
-     display: grid;
-     grid-template-columns: 1fr 1fr;
-     column-gap: 4%;
-     row-gap: 6%;
-      padding: 2%;
-    }
-
-    .specific-container div {
-       background-color: rgb(18, 186, 228, 0.5);
-      box-shadow: -3px 3px 9px rgb(4, 77, 4);
-      align-items: center;
-      justify-content: center;
-      padding: 6%; 
-    }
-
-    .activities-heading {
-      display: grid;
-      align-items: center;
-      justify-content: center;
-      font-size: 1.7vw;
-      color: rgb(107, 104, 104);
-    }
-
-    .general-activities-container {
-      background-color: azure;
-      display: flex;
-      flex-direction: column;
-      padding: 6%;
-      width: 50%;
-      height: auto;
-      margin: 7% 20%;
-      border-radius: 8%;
-    }
-
-    .general-activities-container h2{
-      color: rgb(87, 84, 84);
-    }
+.card{
+   border-radius: 0;
+}
 
 
 
