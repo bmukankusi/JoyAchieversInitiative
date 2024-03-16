@@ -30,7 +30,7 @@ body {
   
   #theme {
     position: absolute;
-    top: 80%;
+    top: 70%;
     z-index: 300;
   }
 
@@ -78,7 +78,9 @@ body {
   
   
     .background-container {
-      margin-top: 50%;
+       margin-top: 30% !important;
+       margin-left: 10% !important;
+       margin-right: 10% !important;
         box-shadow: 3px 3px 8px black;
         background-color: rgba(213, 214, 213, 0.4);
         padding: 3% 2%;
@@ -131,61 +133,14 @@ body {
 }
 
 
-
-  
-
- 
-
-
- 
-
-  .know-more-container {
-    display: flex;
-    justify-content: center;
-  }
-  .know-more {
-    display: flex;
-    padding: 20px;
-    color: azure;
-    flex-direction: column;
-    margin-top: 0;
-    margin-left: 120px;
-    margin-bottom: 70px;
-    background-color: green;
-    width: 180px;
-    border-radius: 6px;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .know-more button {
-    width: 160px;
-    height: 30px;
-  }
-
-  .donation-section {
-    background-color: rgb(15, 168, 206);
-    color: white;
-    width: 80%;
-    height: 25%;
-    padding: 2%;
-    margin-top: 15%;
-    margin-left: 10%;
-    line-height: 2.8vw;
-    margin-bottom: 3%;
-    border-radius: 15px;
-    font-size: 2vw;
-    font-weight: bold;
-  }
-
   #text {
     color: rgb(226, 220, 220);
   }
   .call-to-action {
     display: flex;
     flex-wrap: wrap;
-    background-color: lightgray;
-    margin: 10%;
+    background-color: rgb(145, 218, 240, 0.4);
+    margin: 5% 10% 10% 5%;
     justify-content: space-evenly;
   }
 
@@ -204,7 +159,7 @@ body {
   }
 
   footer{
-    background-color: black;
+    background-color: rgb(39, 176, 218);
     color: white;
   }
 

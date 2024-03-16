@@ -12,113 +12,256 @@
 </head>
 <body>
 
-<header>
- <div class="overlay">
-  <nav>
-    <img src="../images/favicon-icon.png" alt="Logo">
-    <div class="links">
-      <a href="about.html">About Us</a>
-      <a href="about.html#programs">Programs</a>
-      <a href="achievement.html">Awards</a>
+  <header>
+    <div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-info">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="/images/jaf_favicon.png" alt="logo" class="d-inline-block align-text-top logo">
+            <span class="navbar-text">
+              Joy Achievers Initiative
+            </span>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  About Us
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#background">Background</a></li>
+                  <li><a class="dropdown-item" href="#programs">Activities</a></li>
+                  <li><a class="dropdown-item" href="#contact">Contacts</a></li>
+                </ul>
+              </li>
+    
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#gallery">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="join-us.html#donate">Donate</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </div>
-  </nav>
-<div class="header-content">
-  <div>
-    <h1>MISSION</h1>
-    <p>Empowering Individuals, Transforming Lives: Through mental health support, 
-      family and school reintegration for street children, family conflict resolution, 
-      and youth empowerment in sexual and reproductive health and rights (SRHR). 
-      We strive to build a future where streets hold no children, 
-      and all individuals make informed choices for a healthier and brighter tomorrow</p>
-    <button class="donate-btn" id="displayText">Donate</button>
-    <div id="hiddenText">
-      <p>Use Momo Code: 657102</p>
-      <p>Momo Code name: Benithe</p>
+         <div class="">
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel"> 
+            
+            <!--  -->
+            
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active caraus-container">
+                <img src="/images/jafbg.jpg" class="d-block w-100 carous-img" alt="...">
+                <div class="carousel-caption d-none d-md-block top-0">
+                  <h2 class="text-uppercase fs-1 fw-bolder mt-5 py-4">Joy Achievers Initiative</h2>
+                  <p class="fw-light fs-2">End street life, Every child in a peaceful family.</p>
+                </div>
+              </div>
+              <div class="carousel-item caraus-container">
+                <img src="/images/jaf01.jpg" class="d-block w-100 carous-img" alt="...">
+                <div class="carousel-caption d-none d-md-block top-0 mt-5 fs-2">
+                  <h5 class="mt-5 fs-1 fw-bold">Together we make an impact</h5>
+                  <p class="fw-light fs-2">Street children should not be excluded from the rights and values of Rwandan citizens. A child should not grow up on 
+                  street but should be be brought up in a family <br> where he/she is happy and free from abuse.
+                &copy; Founder</p>
+                </div>
+              </div>
+              <div class="carousel-item caraus-container">
+                <img src="/images/jaf15.jpg" class="d-block w-100 carous-img" alt="...">
+                <div class="carousel-caption d-none d-md-block top-0 fs-2">
+                  <h2 class="mt-5 py-3 fw-bold fs-1">Values that guide us</h2>
+                  <div class="row gx-2 fw-light fst-italic">
+                    <p class="col">Honesty</p>
+                    <p class="col">Team Work</p>
+                    <p class="col">Respect</p>
+                    <p class="col">Diversity</p>
+                    <p class="col">Impathy</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+            
+          </div>
+          <div class="container align-items-center ms-5 position-absolute" id="theme">
+            <div class="row gx-5">
+             <div class="col p-3 rounded bg-light m-3 we-mission-vision">
+               <h2 >Who We Are</h2>
+               <p>Joy Achievers Initiative is a youth-led non-profit organization founded by university students 
+                 who have studied in health sectors, primarily general nursing and mental health nursing. 
+                 Members are put in place based on the Initiative constitution. We are dedicated to working 
+                 on the mental health issues of street children and returning them to their homes and schools. 
+                 The organization was founded by a general nursing student, Mr. Thierry NABAYO, and began 
+                 with a team of 11 co-founders, the Initiative aims to get many members, partners, and 
+                 sponsors.</p>
+             </div>
+             <div class="col p-3 rounded bg-light m-3 we-mission-vision">
+               <h2 id="mission">Mission</h2>
+               <p>Empowering Individuals, Transforming Lives: Through mental health support,
+                  family and school reintegration for street children, family conflict resolution,
+                   and youth empowerment in sexual and reproductive health and rights (SRHR). 
+                   We strive to build a future where streets hold no children, 
+                 and all individuals make informed choices for a healthier and brighter tomorrow</p>
+             </div>
+             <div class="col p-3 rounded bg-light m-3 we-mission-vision">
+               <h2 id="vision">Vision</h2>
+               <p>To create a joyous nation through the inclusion of vulnerable children, strengthening their 
+                 families, and assisting them to unlock their potential.
+                 </p>
+             </div>
+            </div>
+         </div>
+         </div>
+     
+    </header>
+
+<main>
+  <section class="container">
+  <div class="who-we-are mt-5 pt-5 px-5">
+    <h2 class="text-center pt-5 pb-2">Who We Are</h2>
+    <p>Joy Achievers Initiative is a youth-led non-profit organization founded by university students 
+      who have studied in health sectors, primarily general nursing and mental health nursing. 
+      Members are put in place based on the Initiative constitution. We are dedicated to working 
+      on the mental health issues of street children and returning them to their homes and schools. 
+      The organization was founded by a general nursing student, Mr. Thierry NABAYO, and began 
+      with a team of 11 co-founders, the Initiative aims to get many members, partners, and 
+      sponsors.</p>
+      <button type="button" class="btn btn-secondary"><a href="about.html" class="text-light text-decoration-none">Read more</a></button>
+  </div>
+    </section>
+      <section class="gallery" id="gallery">
+        <div class="container-lg">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 gy-4 gx-5">
+            <div class="col">
+              <img src="../images/jaf16.jpg" class="gallery-item" alt="Image 1">
+            </div>
+            <div class="col">
+              <img src="../images/jaf17.jpg" class="gallery-item" alt="Image 2">
+            </div>
+            <div class="col">
+              <img src="../images/jaf18.jpg" class="gallery-item" alt="Image 3">
+            </div>
+            <div class="col">
+              <img src="../images/jaf18b.jpg" class="gallery-item" alt="Image 4">
+            </div>
+            <div class="col">
+              <img src="../images/jaf19a.jpg" class="gallery-item" alt="Image 5">
+            </div>
+            <div class="col">
+              <img src="../images/jaf19b.jpg" class="gallery-item" alt="Image 6">
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+<!-- Modal -->
+<div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-md">
+    <div class="modal-content">
+      <div class="modal-header">
+        
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="../images/jaf16.jpg" class="modal-img" alt="image 1">
+      </div>
     </div>
   </div>
 </div>
- </div>
-</header>
-
-<main>
-  <section class="section">
-    <h2>Who We Are</h2>
-        <p>Joy Achievers Initiative is a youth-led non-profit organization founded by university students 
-          who have studied in health sectors, primarily general nursing and mental health nursing. 
-          Members are put in place based on the Initiative constitution. We are dedicated to working 
-          on the mental health issues of street children and returning them to their homes and schools. 
-          The organization was founded by a general nursing student, Mr. Thierry NABAYO, and began 
-          with a team of 11 co-founders, the Initiative aims to get many members, partners, and 
-          sponsors.</p>
-    </section>
-  
-      <section class="image-section">
-        <div class="image-container">
-          <img src="../images/jaf16.jpg" alt="Image 1">
-      </div>
-        <div class="image-container">
-          <img src="../images/jaf17.jpg" alt="Image 2">
-        </div>
-             <div class="image-container">
-              <img src="../images/jaf18.jpg" alt="Image 3">
-             </div>
-          <div class="image-container">
-            <img src="../images/jaf18b.jpg" alt="Image 4">
-          </div>
-  
-          <div class="image-container">
-            <img src="../images/jaf19a.jpg" alt="Image 5">
-          </div>
-         
-       <div class="image-container">
-              <img src="../images/jaf19b.jpg" alt="Image 6">
-              <!--<p class="description">
-              </p>-->
-       </div>
-  
-    </section>
     
-      
-  <section>
-    <div id="ftn-heading">
-      <h1>Initiative Programs</h1>
-      <p>Joy Achievers Initiative has 4 Programs.</p>
-      <!--<p>1. Offer mental health treatment to street children and reunify them with their families 
-        and schools.</p>
-        <p>2. Address conflict and economic issues in families to create a joyful environment for 
-        children.</p>
-        <p>3. Find homes for orphans and children from parents of street history.</p>
-        <p>4. Provide sexual and reproductive health and Rights services to youth</p>-->
+<section class="container-md">
+  <h1 class="text-center fs-2">Initiative Programs</h1>
+      <p class="text-center py-2 fw-light">Joy Achievers Initiative has 4 Programs.</p>
+    <div class="row g-4">
+      <div class="card mb-3 m-4" style="max-width: 540px;">
+        <div class="row">
+          <div class="col">
+            <img src="../images/jaf20.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Mental Health</h5>
+              <p class="card-text"> Offer mental health treatment to street children and reunify them with their families 
+                and schools.</p>
+              <a href="about.html#programs" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="../images/jaf15.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Family conflict Resolution</h5>
+              <p class="card-text">Address conflict and economic issues in families to create a joyful environment for 
+                children</p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="program-section">
-      <div class="program-imge-container">
-        <img src="../images/jaf20.jpg" alt="">
-       <p> Offer mental health treatment to street children and reunify them with their families 
-        and schools.</p>
-       
-    </div>
-    <div class="program-imge-container">
-      <img src="../images/jaf15.jpg" alt="">
-       <p> Address conflict and economic issues in families to create a joyful environment for 
-        children.</p>
-    </div>
-    <div class="program-imge-container">
-      <img src="../images/jaf11.jpg" alt="">
-       <p>Find homes for orphans and children from parents of street history.
-      </p>
-    </div>
-    <div class="program-imge-container">
-      <img src="../images/jaf21.jpg" alt="">
-       <p>Provide sexual and reproductive health and Rights services to youth.
-      </p>
-    </div>
-    </div>
-  </section>
 
- <section class="how-we-do-container">
-  
-  <div>
-    <h2>How do we do that?</h2>
+  <div class="row g-4">
+    <div class="card mb-3 m-4" style="max-width: 540px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="../images/jaf11.jpg" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Find their homes</h5>
+            <p class="card-text">Find homes for orphans and children from parents of street history.</p>
+            <a href="#" class="btn btn-primary">Read more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 540px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="../images/jaf21.jpg" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Sexual and Reproductive health</h5>
+            <p class="card-text">Provide sexual and reproductive health and Rights services to youth.</p>
+            <a href="about.html#programs" class="btn btn-primary">Read more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>      
+
+<section class="conatiner">
+  <div class="m-5 pt-5 px-5">
+    <h2 class="text-center py-2">How do we do that?</h2>
     <p>1. <b>Awareness campaign:</b> Conduct an online and onsite awareness campaign to inform the 
       public about the project and its goals. Partner with specialists and other stakeholders 
       to develop targeted messages and activities.</p>
@@ -135,53 +278,68 @@
       <p>6. <b>Government and police collaboration:</b> Partner with local government agencies and 
         police departments to provide support to families and street children.</p>
   </div>
+</section>
+  <section class="conatiner bg-secondary p-5">
+     <div>
+      <h2 class="fs-2 py-3 text-center fs-5 border-bottom">Expected Outcomes</h2>
+    <div class="px-5 outcomes fs-4">
+      <ol>
+        <li>A reduction in the number of street children living on the streets.</li>
+<li> An improvement in the mental and emotional well-being of street children.</li>
+<li>A decrease in conflict and economic hardship in families.</li>
+<li> An increase in the number of orphans and children from parents of street history who 
+  have safe and loving homes.</li>
+<li>An increase in the number of youth who are aware of their sexual and reproductive 
+  health rights and have access to necessary products and services.</li>
+      </ol>
+    </div>
+     </div>
+  </section>
+ <section class="how-we-do-container">
+  
+  <div>
+  
+  </div>
   <!-- <div>
     <img src="../images/jaf22.jpg" alt="Mode of application">
   </div> -->
  </section>
  <section>
-  <h2 class="outcome-heading">Expected Outcomes</h2>
+  <h2 class="outcome-heading"></h2>
   <div class="expected-outcomes">
-        <ol>
-          <li>A reduction in the number of street children living on the streets.</li>
-<li> An improvement in the mental and emotional well-being of street children.</li>
-<li>A decrease in conflict and economic hardship in families.</li>
-  <li> An increase in the number of orphans and children from parents of street history who 
-    have safe and loving homes.</li>
-  <li>An increase in the number of youth who are aware of their sexual and reproductive 
-    health rights and have access to necessary products and services.</li>
-        </ol>
+        
       </div>
-<!-- </div>
-<img src="../images/target.jpg" alt="target">
-  </div> -->
- </section>
-  <section class="donation-section">
-    <div>
-      <h2>Call to Action</h2>
-    <p>Did you know: "No act of kindness, no matter how small, is ever wasted"? Every donation helps make advancements toward the street children's life. Donate today and make a difference.</p>
-    <div id="text">
-      <p>Use Momo Code: 657102</p>
-      <p>Momo Code name: Benithe</p>
-    </div>
-    </div>
-    </section>
+
+      <article class="container">
+        <h3 class="text-center">Call to Action</h3>
+        <div class="call-to-action">
+             <div>
+              <img src="/images/jaf15.jpg" class="me-5" alt="">
+             </div>
+             <div class="text-center py-3">
+              <p class="p-4">Did you know: "No act of kindness, no matter how small, is ever wasted"? Every donation helps make advancements toward the street children's life. Donate today and make a difference.</p>
+                <a href="join-us.html">
+                  <button type="button" class="btn btn-primary btn-lg">Join Us</button></a>
+              </div>
+        </div>
+        </div>
+      </article>
 </main>
 
 <footer class="container-x mt-5">
   <div class="row text-center g-3">
     <div class="col" id="about-us">
-      <h3><a class="text-decoration-none" href="about.html">About Us</a></h3>
+      <h3><a class="text-decoration-none fs-3" href="about.html">About Us</a></h3>
       <div>
-          <p><a class="text-decoration-none" href="#vision">Vision</a></p>
-          <p><a class="text-decoration-none" href="#mission">Mission</a></p>
-          <p><a class="text-decoration-none" href="#program">Program</a></p>
-          <p><a class="text-decoration-none" href="#background">History</a></p>
+          <p><a class="text-decoration-none fs-6 fw-light" href="/about.html#vision">Vision</a></p>
+          <p><a class="text-decoration-none fs-6 fw-light" href="/about.html#mission">Mission</a></p>
+          <p><a class="text-decoration-none fs-6 fw-light" href="/about.html#program">Program</a></p>
+          <p><a class="text-decoration-none fs-6 fw-light" href="/about.html#background">History</a></p>
       </div>
     </div>
     <div class="col">
-      <h3>Partnership</h3>
-      <div>
+      <h3 class="fs-3">Partnership</h3>
+      <div class="fs-6 fw-light">
         <p>Uyisenga ni Imanzi</p>
         <p>NYC Rwamagana</p>
         <p>Kids Hope Rwanda</p>
@@ -189,19 +347,19 @@
     </div>
     <div class="col">
       <h3>Contact Us</h3>
-      <div>
+      <div class="fst-6 fw-light">
         <p>Phone: +250791503129</p>
         <p>Twitter: @joyachievers</p>
         <p>Instagram: joyachieversInitiative</p>
       </div>
     </div>
-    <div class="col">
+    <div class="col" id="#contact">
       <div class="py-5">
-        <i class="bi bi-instagram px-3"></i>
-        <i class="bi bi-telephone-fill px-3"></i>
-        <i class="bi bi-twitter-x px-3"></i>
+       <a href="https://www.instagram.com/joyachieversfoundation?igsh=dzJkeWp0Nm56aXI5" target="_blank"><i class="bi bi-instagram px-3"></i></a>
+        <a href=""><i class="bi bi-telephone-fill px-3"></i></a>
+        <a href="https://x.com/joyachievers?s=11" target="_blank"><i class="bi bi-twitter-x px-3"></i></a>
       </div>
-      <button>Donate</button>
+      <a href="join-us.html"><button type="button" class="btn btn-secondary btn-lg">Donate</button></a>
     </div>
   </div>
 </footer>

@@ -1,18 +1,9 @@
  
- 
- var displayText = document.getElementById("displayText");
-      var hiddenText = document.getElementById("hiddenText");
-
-      function showText() {
-        hiddenText.style.display = "block";
-      }
-
-      function hideTextOnScroll() {
-         hiddenText.style.display = "none";
-         window.removeEventListener("scroll", hideTextOnScroll);
-      }
-
-      displayText.addEventListener("click", function(){
-        showText();
-        window.addEventListener("scroll", hideTextOnScroll);
-      })
+document.addEventListener("click", function (e){
+  if(e.target.classList.contains("gallery-item")){
+    const src = e.target.getAttribute("src");
+    document.querySelector(".modal-img").src = src;
+    const myModal = new bootstrap.Modal(document.getElementById('gallery-modal'))
+    myModal.show();
+  }
+})

@@ -7,179 +7,78 @@ body {
 
 /* Header styles */
 header {
-  background-image: url('../images/jafbg.jpg');
-  box-shadow: -60px -40px 120px #080808 inset;
-  background-size: cover;
+  margin-bottom: 20%;
+}
+
+.caraus-container{
+  margin: 0;
+  padding: 0;
+  height: 70vh;
+  z-index: 1;
+}
+
+.carous-img{
+  height: 100%;
   object-fit: cover;
-  height: 600px;
-  position: relative;
 }
 
-
-.header-content {
-  max-width: 40%;
-  color: black;
+#theme {
   position: absolute;
-  background-color: white;
-  border-radius: 4%;
-  box-shadow: 4px 4px 12px rgb(153, 152, 152);
-  padding: 2%;
-  font-size: 1.5vw;
-  margin: 29% 30%;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  top: 70%;
+  z-index: 300;
 }
 
-.header-content h1 {
-  font-family: 'Courier New', Courier, monospace;
-  font-weight: bolder;
+.we-mission-vision{
+  box-shadow: 4px 4px 12px 3px rgb(126, 124, 124);
 }
 
 /* Navbar styles */
-nav {
-  background-color: rgb(24, 25, 26);
-  height: 10%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1%;
- 
+
+
+.nav-link:hover{
+  border-bottom: 1px solid rgb(32, 32, 32);
+  transition: 0.3ms;
 }
 
-nav img{
+ .logo {
   width: 7%;
   height: auto;
+  padding: 0;
 }
 
-.links a {
-  color: white;
-  text-decoration: none;
-  margin-left: 20px;
-  margin-right: 20px;
-  font-weight: 500;
-}
-
-.links a:hover {
-  transition: 0.3s;
-  border-bottom: 2px white solid;
-}
+.logo img {
+  width: 100%;
+  height: 100%;
+} 
 
 
-.donate-btn {
-  height: 45px;
-  width: 75px;
-  border: none;
-  border-radius: 5px;
-  background-color: rgb(31, 153, 235);
-  color: white;
-  cursor: pointer;
-  font-size: 15px;
-  box-shadow: 1px 1px 2px rgb(73, 70, 70);
-}
-
-.donate-btn:hover {
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-  transition: color 0.3s, box-shadow 0.3s;
-}
-
-#hiddenText {
-  display: none;
-  background-color: white;
-  padding: 15px;
-  color: gray;
-  height: 60px;
-  border-radius: 6px;
-  
-}
 
 
 
 /* Main section styles */
-.section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 5%;
-  margin: 20% 10% 10% 5%;
+.who-we-are {
   line-height: 1.7;
 }
 
-.section h2 {
-  
+.gallery {
+  padding: 10% 0;
+}
+
+.gallery img{
+  box-shadow: 2px 2px 4px rgb(90, 87, 87);
+  object-fit: cover;
+}
+
+.gallery-item{
+  width: 100%;
+
 }
 
 
-
- .image-section {
-  margin-top: 3%;
-  background-color: rgba(38, 201, 241, 0.3); 
-  display: grid;
-  align-items: center;
-  justify-content: center;
-  grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 2%;
-  row-gap: 4%;
-  padding: 3%;
-  margin-bottom: 9%;
+#gallery-modal .modal-img{
+   width: 100%;
 }
 
-
-.image-section img {
-  width: 30vw;
-  height: 30vw;
-  box-shadow: 4px 4px 4px black;
-  margin-bottom: 7%;
-} 
-
-.image-section img:hover {
-  cursor: pointer;
-  box-shadow: 3px 3px 9px gray;
-  transition: 0.8sec;
-}
-
-/*.image-container {
-  display: inline;
-  width: 350px;
-  height: 350px;
-  border-radius: 5px;
-  padding: 5px;
- 
-} */
-
-/* for the program section */
-
-#ftn-heading {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 2.8vh;
-    
-
-}
-
-.program-section {
-  display: flex;
-  padding: 2%;
-  margin-top: 2%;
-  justify-content: space-between;
-}
-
-.program-imge-container {
-  width: 23vw;
-  height: auto;
-   display: grid;
-   //background-color: rgb(23, 226, 226);
-   justify-content: space-around;
-   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-   text-align: center;
-}
-
- .program-imge-container img{
-  border-radius: 3px;
-  width: 23vw;
-  height: auto;
-}
 
 
 /*.description {
@@ -208,13 +107,10 @@ nav img{
   height: auto;
 }*/
 
-.outcome-heading {
-  margin-bottom: 0;
-  font-size: 3vw;
-  margin-top: 4%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.outcomes {
+ display: flex;
+ align-items: center !important;
+ justify-content: center !important;
 }
 
 .expected-outcomes {
@@ -231,19 +127,18 @@ nav img{
 }*/
 
 
-.donation-section {
-  background-color: rgb(25, 161, 214);
-  color: white;
-  width: 80%;
-  height: 30%;
-  padding: 20px;
-  margin: 150px;
-  border-radius: 15%;
+.call-to-action {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(145, 218, 240, 0.4);
+  margin: 5% 10% 10% 5%;
+  justify-content: space-evenly;
 }
 
-.donation-section h2{
-  display: flex;
-  justify-content: center;
+.call-to-action img{
+  height: 250px;
+  width: 350px;
+  object-fit: cover;
 }
 
 #text {
@@ -253,7 +148,7 @@ nav img{
  /* This is for the footer section*/
 
  footer{
-  background-color: black;
+  background-color: rgb(39, 176, 218);
   color: white;
 }
 
