@@ -159,4 +159,17 @@ footer a{
 footer a:hover{
   color: rgb(214, 208, 208);
   cursor: pointer;
+  opacity: 0.7;
 }
+
+#footer-link {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#partnshp {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
