@@ -16,12 +16,14 @@
     <div>
       <nav class="navbar navbar-expand-lg navbar-light bg-info">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="/images/jaf_favicon.png" alt="logo" class="d-inline-block align-text-top logo">
-            <span class="navbar-text">
+          <div>
+            <a class="navbar-brand" href="#">
+              <img src="/images/jaf_favicon.png" alt="logo" class="d-inline-block align-text-top logo">
+            </a>
+            <!-- <span class="navbar">
               Joy Achievers Initiative
-            </span>
-          </a>
+            </span> -->
+          </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -35,9 +37,9 @@
                   About Us
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="#background">Background</a></li>
-                  <li><a class="dropdown-item" href="#programs">Activities</a></li>
-                  <li><a class="dropdown-item" href="#contact">Contacts</a></li>
+                  <li><a class="dropdown-item" href="./about.html#background">Background</a></li>
+                  <li><a class="dropdown-item" href="./about.html#programs">Activities</a></li>
+                  <li><a class="dropdown-item" href="./about.html#contact">Contacts</a></li>
                 </ul>
               </li>
     
@@ -45,7 +47,7 @@
                 <a class="nav-link" href="index.html#gallery">Gallery</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="join-us.html#donate">Donate</a>
+                <a class="nav-link" href="./join-us.html#donate">Donate</a>
               </li>
             </ul>
           </div>
@@ -103,19 +105,19 @@
             </button>
             
           </div>
-          <div class="container align-items-center ms-5 position-absolute" id="theme">
+          <div class="container align-items-center ms-4 me-4" id="theme">
             <div class="row gx-5">
-             <div class="col p-3 rounded bg-light m-3 we-mission-vision">
-               <h2 >Who We Are</h2>
-               <p>Joy Achievers Initiative is a youth-led non-profit organization founded by university students 
+             <!-- <div class="col-lg-4 col-md-8 col-sm-6 p-3 rounded bg-info m-3 we-mission-vision">
+               <h2>Who We Are</h2>
+               <p class="fw-light">Joy Achievers Initiative is a youth-led non-profit organization founded by university students 
                  who have studied in health sectors, primarily general nursing and mental health nursing. 
                  Members are put in place based on the Initiative constitution. We are dedicated to working 
                  on the mental health issues of street children and returning them to their homes and schools. 
                  The organization was founded by a general nursing student, Mr. Thierry NABAYO, and began 
                  with a team of 11 co-founders, the Initiative aims to get many members, partners, and 
                  sponsors.</p>
-             </div>
-             <div class="col p-3 rounded bg-light m-3 we-mission-vision">
+             </div> -->
+             <div class="col-lg-6 col-md-5 p-3 rounded m-3 we-mission">
                <h2 id="mission">Mission</h2>
                <p>Empowering Individuals, Transforming Lives: Through mental health support,
                   family and school reintegration for street children, family conflict resolution,
@@ -123,7 +125,7 @@
                    We strive to build a future where streets hold no children, 
                  and all individuals make informed choices for a healthier and brighter tomorrow</p>
              </div>
-             <div class="col p-3 rounded bg-light m-3 we-mission-vision">
+             <div class="col-lg-5 col-md-4 p-3 rounded m-3 we-vision">
                <h2 id="vision">Vision</h2>
                <p>To create a joyous nation through the inclusion of vulnerable children, strengthening their 
                  families, and assisting them to unlock their potential.
@@ -137,7 +139,7 @@
 
 <main>
   <section class="container">
-  <div class="who-we-are mt-5 pt-5 px-5">
+  <div class="who-we-are mt-2 px-5">
     <h2 class="text-center pt-5 pb-2">Who We Are</h2>
     <p>Joy Achievers Initiative is a youth-led non-profit organization founded by university students 
       who have studied in health sectors, primarily general nursing and mental health nursing. 
@@ -149,7 +151,7 @@
       <button type="button" class="btn btn-secondary"><a href="about.html" class="text-light text-decoration-none">Read more</a></button>
   </div>
     </section>
-      <section class="gallery" id="gallery">
+      <section class="gallery mt-4" id="gallery">
         <div class="container-lg">
           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 gy-4 gx-5">
             <div class="col">
@@ -190,7 +192,7 @@
   </div>
 </div>
     
-<section class="container-md">
+<section class="container-md py-5">
   <h1 class="text-center fs-2">Initiative Programs</h1>
       <p class="text-center py-2 fw-light">Joy Achievers Initiative has 4 Programs.</p>
     <div class="row g-4">
@@ -261,7 +263,7 @@
 
 <section class="conatiner">
   <div class="m-5 pt-5 px-5">
-    <h2 class="text-center py-2">How do we do that?</h2>
+    <h2 class="text-center py-3">How do we do that?</h2>
     <p>1. <b>Awareness campaign:</b> Conduct an online and onsite awareness campaign to inform the 
       public about the project and its goals. Partner with specialists and other stakeholders 
       to develop targeted messages and activities.</p>
@@ -279,9 +281,9 @@
         police departments to provide support to families and street children.</p>
   </div>
 </section>
-  <section class="conatiner bg-secondary p-5">
+  <section class="conatiner p-5 exp-outcomes">
      <div>
-      <h2 class="fs-2 py-3 text-center fs-5 border-bottom">Expected Outcomes</h2>
+      <h2 class="fs-2 py-4 text-center fs-5 border-bottom">Expected Outcomes</h2>
     <div class="px-5 outcomes fs-4">
       <ol>
         <li>A reduction in the number of street children living on the streets.</li>
@@ -310,15 +312,15 @@
         
       </div>
 
-      <article class="container">
-        <h3 class="text-center">Call to Action</h3>
+      <article class="container py-5 my-5">
+        <h3 class="text-center pt-5 mt-5 pb-3 mb-2">Call to Action</h3>
         <div class="call-to-action">
              <div>
-              <img src="/images/jaf15.jpg" class="me-5" alt="">
+              <img src="/images/jaf15.jpg" class="ms-0" alt="">
              </div>
              <div class="text-center py-3">
-              <p class="p-4">Did you know: "No act of kindness, no matter how small, is ever wasted"? Every donation helps make advancements toward the street children's life. Donate today and make a difference.</p>
-                <a href="join-us.html">
+              <p class="px-3 fs-4 fst-italic">Did you know: "No act of kindness, no matter how small, is ever wasted"? Every donation helps make advancements toward the street children's life. Donate today and make a difference.</p>
+                <a href="./join-us.html">
                   <button type="button" class="btn btn-primary btn-lg">Join Us</button></a>
               </div>
         </div>
@@ -331,10 +333,10 @@
     <div class="col" id="about-us">
       <h3><a class="text-decoration-none fs-3" href="about.html">About Us</a></h3>
       <div>
-          <p><a class="text-decoration-none fs-6 fw-light" href="/about.html#vision">Vision</a></p>
-          <p><a class="text-decoration-none fs-6 fw-light" href="/about.html#mission">Mission</a></p>
-          <p><a class="text-decoration-none fs-6 fw-light" href="/about.html#program">Program</a></p>
-          <p><a class="text-decoration-none fs-6 fw-light" href="/about.html#background">History</a></p>
+        <p><a class="text-decoration-none fs-6 fw-light" href="./about.html#vision">Vision</a></p>
+        <p><a class="text-decoration-none fs-6 fw-light" href="./about.html#mission">Mission</a></p>
+        <p><a class="text-decoration-none fs-6 fw-light" href="./about.html#program">Program</a></p>
+        <p><a class="text-decoration-none fs-6 fw-light" href="./about.html#background">History</a></p>
       </div>
     </div>
     <div class="col">

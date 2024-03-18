@@ -1,10 +1,71 @@
+
+header {
+  margin-bottom: 10%;
+}
+
+.caraus-container{
+  margin: 0;
+  padding: 0;
+  height: 70vh;
+  z-index: 1;
+}
+
+.carous-img{
+  height: 100%;
+  object-fit: cover;
+}
+
+#theme {
+  position: absolute;
+  top: 70%;
+  z-index: 300;
+}
+
+.we-mission-vision{
+  box-shadow: 4px 4px 12px 3px rgb(126, 124, 124);
+}
+
+/* Navbar styles */
+
+
+.nav-link:hover{
+  border-bottom: 1px solid rgb(32, 32, 32);
+  transition: 0.3ms;
+}
+
+ .logo {
+  width: 7%;
+  height: auto;
+  padding: 0;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+} 
+
+/*Main styles*/
+.donation-container {
+  background-color: rgb(233, 226, 226);
+  /* position: relative; */
+}
+
+.join-img {
+  width: 100%;
+  height: 100%;
+  margin-right: 0 !important;
+  object-fit: cover;
+}
+
+
+
 footer{
   background-color: rgb(39, 176, 218);
-  color: white;
+  color: black;
 }
 
 footer a{
-  color: rgb(248, 248, 248);
+  color: rgb(3, 3, 3);
 }
 
 footer a:hover{
